@@ -12,6 +12,10 @@ const Header = () => {
         <NavBar />
 
         <div className="app__header-container">
+          <div className="header-content">
+            <h2>Transfert</h2>
+            <h2>D'argent fiable</h2>
+          </div>
           <CircularTextAnimation />
         </div>
       </div>

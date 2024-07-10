@@ -22,10 +22,9 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    /* font-family: consolas; */
     color: #000;
     font-size: 17px;
-    font-family: var(--font-alt);
+    font-family: var(--font-base);
     animation: textRotation 8s linear infinite;
 }
 

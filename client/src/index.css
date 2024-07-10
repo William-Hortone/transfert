@@ -3,30 +3,17 @@
 @font-face {
   font-family: "CustomFontFamily";
   src: url("./assets/fonts/Redwing-Medium.otf") format("truetype");
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "Neue Display Random";
-  src: url("https://db.onlinewebfonts.com/t/df6b8a408bc8b88138fd212d6085dca0.eot");
-  src: url("https://db.onlinewebfonts.com/t/df6b8a408bc8b88138fd212d6085dca0.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/df6b8a408bc8b88138fd212d6085dca0.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/df6b8a408bc8b88138fd212d6085dca0.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/df6b8a408bc8b88138fd212d6085dca0.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/df6b8a408bc8b88138fd212d6085dca0.svg#Neue Display Random")
-      format("svg");
-}
+
 
 :root {
-  /* --font-base: "CustomFontFamily", serif; */
+  --font-base: "CustomFontFamily", sans-serif;
 
   --font-alt: "Open Sans", sans-serif;
   --font-title: "Cormorant Upright", serif;
-  --font-base: "Neue Display Random";
+  /* --font-base: "Neue Display Random"; */
   --color-primary: #276091;
   /* --color-primary: #273542; */
   /* --color-secondary: #163e70; */
@@ -35,5 +22,6 @@
   --color-tertial: #273542;
   --color-lightWhite: #f8f9fc;
   --color-bg: #e9e9e9;
+  --color-crimson: #f1ecec;
   /* FFF0EC */
 }
