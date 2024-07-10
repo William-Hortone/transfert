@@ -5,9 +5,9 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="app__home">
-      <PreHeader />
+    
       <Header />
-      <NavBar />
+      {/* <NavBar /> */}
 
     </div>
   );

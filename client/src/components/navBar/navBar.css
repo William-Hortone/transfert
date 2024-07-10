@@ -1,0 +1,27 @@
+.app__navBar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    background-color: var(--color-secondary);
+}
+.btn-connection{
+    /* width: 100px; */
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    /* margin-top: 0.5rem; */
+    cursor: pointer;
+    transition: all 0.4s ease;
+    color: white;
+    background-color: var(--color-tertial);
+
+}
+.btn-primary{
+    background: transparent !important;
+    border: 1px solid var(--color-lightWhite);
+    margin-left: .5rem;
+}

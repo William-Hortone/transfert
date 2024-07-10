@@ -4,11 +4,7 @@ import "./menu.css";
 const Menu = () => {
   return (
     <>
-
-    <div className="navBar_menu">
-    
-     
-    </div>
+      <div className="navBar_menu"></div>
     </>
   );
 };
