@@ -7,13 +7,22 @@
     padding: 0 4rem;
     background-color: var(--color-secondary);
 }
+.app__navBar-logo{
+    width: auto;
+    height: 100%;
+}
+.app__navBar-logo img{
+    height: 100%;
+    aspect-ratio: 1/1;
+
+}
+
+
 .btn-connection{
-    /* width: 100px; */
     padding: 0.5rem 1rem;
     border-radius: 15px;
     border: none;
     outline: none;
-    /* margin-top: 0.5rem; */
     cursor: pointer;
     transition: all 0.4s ease;
     color: white;

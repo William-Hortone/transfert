@@ -1,5 +1,5 @@
 import React from "react";
-import "./preHeader.css";
+import "./preHeader.css"
 
 const PreHeader = () => {
   return (
@@ -11,18 +11,22 @@ const PreHeader = () => {
             <div className="app__slidingText-container">
               <div className="sliding-content">
                 <span>
-                  &nbsp;Design and Implementation Of Score Management system of
+                  &nbsp;Design and Implementation Of Score Management system of Design and Implementation Of Score Management system of
                   -&nbsp;
                 </span>
                 <span>Engineering Education Engineering Education -&nbsp;</span>
               </div>
+              
               <div className="sliding-content">
                 <span>
-                  &nbsp;Design and Implementation Of Score Management system of
+                  &nbsp;Design and Implementation Of Score Management system of Design and Implementation Of Score Management system of
                   -&nbsp;
                 </span>
                 <span>Engineering Education Engineering Education -&nbsp;</span>
               </div>
+              
+              
+              
             </div>
           </div>
         </div>

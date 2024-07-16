@@ -1,14 +1,12 @@
-import uob from "../assets/images/UOB.jpg";
-import logo from "../assets/images/Logo.jpg";
-import img1 from "../assets/images/1.jpg";
-import img2 from "../assets/images/2.jpg";
-import img3 from "../assets/images/3.jpg";
 
+import logo from "../assets/images/logo.png";
+import image1 from "../assets/images/img-1.jpg"
+import image2 from "../assets/images/image2.png"
 
-export default {
-  uob,
+const images = {
   logo,
-  img1,
-  img2,
-  img3,
-};
+  image1,
+  image2,
+}
+
+export default images;

@@ -9,31 +9,29 @@
   height: auto;
   display: flex;
   align-items: center;
-  overflow: hidden; /* Ensure overflow is hidden */
+  overflow: hidden;
 }
-
 .app__slidingText-container {
   display: flex;
 }
-
 .sliding-content {
   display: flex;
   animation: move 10s linear infinite;
   color: #000;
-  padding: 1rem 0;
+  padding: .7rem 0;
 }
 
 @keyframes move {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
 .sliding-content span {
-  font-size:1.5rem;
+  font-size:1rem;
   white-space: nowrap;
   font-family: var(--font-base);
   color: #f9dcc5;
@@ -42,7 +40,7 @@
 
 @media screen and (min-width: 2000px) {
   .sliding-content span {
-    font-size: 8rem;
+    font-size: 7rem;
   }
 }
 
@@ -54,7 +52,7 @@
 
 @media screen and (max-width: 900px) {
   .sliding-content span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 

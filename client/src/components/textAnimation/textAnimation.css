@@ -1,7 +1,7 @@
 .circle {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border-radius: 100vmax;
     display: flex;
     align-items: center;
@@ -10,14 +10,13 @@
 
 .logo {
     position: absolute;
-    width: 140px;
-    height: 140px;
-    /* background: url("https://assets.codepen.io/7344750/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1657025755&width=512"); */
+    width: 70%;
+    aspect-ratio: 1/1;
+    background: url('../../assets/images/image2.png');
     background-size: cover;
     border-radius: 100vmax;
     background-position: center;
 }
-
 .text {
     position: absolute;
     width: 100%;
@@ -38,5 +37,5 @@
     position: absolute;
     left: 50%;
     font-size: 1.2em;
-    transform-origin: 0 100px;
+    transform-origin: 0 200px;
 }

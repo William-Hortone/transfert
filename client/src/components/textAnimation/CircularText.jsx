@@ -13,7 +13,7 @@ const CircularTextAnimation = () => {
 
     return (
         <div className="circle">
-            {/* <div className="logo"></div> */}
+            <div className="logo"></div>
             <div className="text">
                 <p>
                     {generateRotatedSpans(" TRANSFERT D'AGENT - LA POUR VOUS - ")}
